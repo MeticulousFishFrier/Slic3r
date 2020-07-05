@@ -1,0 +1,5 @@
+{
+    "cmake.configureOnOpen": false,
+    "clang-format.executable": "/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/utils/clang_format"
+
+}

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9e6c4f3-a2ff-4ec8-810e-13806a5ea62c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.github/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build.PL" beforeDir="false" afterPath="$PROJECT_DIR$/../Build.PL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../appveyor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake/modules/FindAlienWx.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake/modules/FindAlienWx.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake/modules/FindPerlEmbed.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake/modules/FindPerlEmbed.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake/modules/LibFindMacros.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake/modules/LibFindMacros.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/How_to_build_Slic3r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/How_to_build_Slic3r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Config.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Config.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/ExPolygon.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/ExPolygon.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/ExtrusionLoop.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/ExtrusionLoop.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/ExtrusionPath.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/ExtrusionPath.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Flow.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Flow.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GCode/ArcFitting.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GCode/ArcFitting.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GCode/MotionPlanner.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GCode/MotionPlanner.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GCode/PressureRegulator.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GCode/PressureRegulator.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GCode/Reader.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GCode/Reader.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GCode/VibrationLimit.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GCode/VibrationLimit.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/2DBed.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/2DBed.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/3DScene.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/3DScene.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/AboutDialog.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/AboutDialog.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/BedShapeDialog.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/BedShapeDialog.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/BonjourBrowser.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/BonjourBrowser.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/ConfigWizard.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/ConfigWizard.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Controller.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Controller.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Controller/ManualControlDialog.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Controller/ManualControlDialog.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Controller/PrinterPanel.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Controller/PrinterPanel.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/MainFrame.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/MainFrame.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Notifier.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Notifier.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/OptionsGroup.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/OptionsGroup.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/OptionsGroup/Field.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/OptionsGroup/Field.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/2D.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/2D.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/2DToolpaths.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/2DToolpaths.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/3D.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/3D.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/3DPreview.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/3DPreview.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/LambdaObjectDialog.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/LambdaObjectDialog.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/ObjectCutDialog.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/ObjectCutDialog.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/ObjectPartsPanel.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/ObjectPartsPanel.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/ObjectSettingsDialog.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/ObjectSettingsDialog.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/OverrideSettingsPanel.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/OverrideSettingsPanel.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/SplineControl.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Plater/SplineControl.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Preferences.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Preferences.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Preset.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Preset.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/PresetEditor.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/PresetEditor.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/PresetEditorDialog.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/PresetEditorDialog.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/ProgressStatusBar.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/ProgressStatusBar.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/Projector.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/Projector.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/GUI/SLAPrintOptions.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/GUI/SLAPrintOptions.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Geometry.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Geometry.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Geometry/Clipper.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Geometry/Clipper.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Layer.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Layer.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Line.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Line.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Model.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Model.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Point.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Point.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Polygon.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Polygon.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Polyline.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Polyline.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Print.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Print.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Print/GCode.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Print/GCode.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Print/Object.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Print/Object.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Print/Simple.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Print/Simple.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Print/State.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Print/State.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Print/SupportMaterial.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Print/SupportMaterial.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/SVG.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/SVG.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Surface.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Surface.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Test.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Test.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Slic3r/Test/SectionCut.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Slic3r/Test/SectionCut.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/common/coreperl" beforeDir="false" afterPath="$PROJECT_DIR$/../package/common/coreperl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/common/shell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../package/common/shell.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/common/util.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../package/common/util.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/deploy/slic3r-upload.ppk.enc" beforeDir="false" afterPath="$PROJECT_DIR$/../package/deploy/slic3r-upload.ppk.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/deploy/slic3r-upload.rsa.enc" beforeDir="false" afterPath="$PROJECT_DIR$/../package/deploy/slic3r-upload.rsa.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/linux/build_shell.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../package/linux/build_shell.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/linux/libpaths.appimage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../package/linux/libpaths.appimage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/linux/libpaths.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../package/linux/libpaths.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/linux/slic3r.desktop.in" beforeDir="false" afterPath="$PROJECT_DIR$/../package/linux/slic3r.desktop.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/linux/startup_script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../package/linux/startup_script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/linux/travis-decrypt-key" beforeDir="false" afterPath="$PROJECT_DIR$/../package/linux/travis-decrypt-key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/osx/plist.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../package/osx/plist.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/osx/startup_script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../package/osx/startup_script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/win/appveyor_buildscript.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../package/win/appveyor_buildscript.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/win/appveyor_deploy.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../package/win/appveyor_deploy.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/win/appveyor_preinstall.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../package/win/appveyor_preinstall.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/win/compile_wrapper.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../package/win/compile_wrapper.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/win/package_win32.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../package/win/package_win32.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/win/slic3r.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../package/win/slic3r.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package/win/slic3r.rc" beforeDir="false" afterPath="$PROJECT_DIR$/../package/win/slic3r.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../share/locale/ja/slic3r.mo" beforeDir="false" afterPath="$PROJECT_DIR$/../share/locale/ja/slic3r.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slic3r.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/slic3r.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standalone/config.h" beforeDir="false" afterPath="$PROJECT_DIR$/standalone/config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/extrude-tin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils/extrude-tin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows-build.txt" beforeDir="false" afterPath="$PROJECT_DIR$/windows-build.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/adaptive_slicing.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/adaptive_slicing.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/adaptive_width.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/adaptive_width.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/angles.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/angles.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/arcs.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/arcs.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/avoid_crossing_perimeters.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/avoid_crossing_perimeters.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/bridges.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/bridges.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/clean_polylines.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/clean_polylines.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/clipper.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/clipper.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/collinear.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/collinear.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/combineinfill.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/combineinfill.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/config.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/config.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/cooling.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/cooling.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/custom_gcode.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/custom_gcode.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/fill.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/fill.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/flow.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/flow.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/gaps.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/gaps.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/gcode.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/gcode.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/geometry.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/geometry.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/layers.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/layers.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/loops.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/loops.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/multi.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/multi.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/perimeters.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/perimeters.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/polyclip.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/polyclip.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/pressure.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/pressure.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/print.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/print.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/retraction.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/retraction.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/shells.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/shells.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/skirt_brim.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/skirt_brim.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/slice.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/slice.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/speed.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/speed.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/support.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/support.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/svg.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/svg.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/thin.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/thin.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/threads.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/threads.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../t/vibrationlimit.t" beforeDir="false" afterPath="$PROJECT_DIR$/../t/vibrationlimit.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/dump-stl.pl" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/dump-stl.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/gcode_sectioncut.pl" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/gcode_sectioncut.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/modifier_helpers/layer_generator.jscad" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/modifier_helpers/layer_generator.jscad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/modifier_helpers/solid_layers.scad" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/modifier_helpers/solid_layers.scad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/post-processing/fan_kickstart.py" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/post-processing/fan_kickstart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/post-processing/strip-toolchange.pl" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/post-processing/strip-toolchange.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/send-gcode.pl" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/send-gcode.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/view-mesh.pl" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/view-mesh.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/wireframe.pl" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/wireframe.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/zsh/README.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/zsh/README.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/zsh/functions/_slic3r" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/zsh/functions/_slic3r" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/Slic3r.icns" beforeDir="false" afterPath="$PROJECT_DIR$/../var/Slic3r.icns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/Slic3r.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../var/Slic3r.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/Slic3r.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/Slic3r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/Slic3r_128px.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/Slic3r_128px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/Slic3r_192px.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/Slic3r_192px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/Slic3r_192px_transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/Slic3r_192px_transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/arrow_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/arrow_down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/arrow_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/arrow_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/arrow_redo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/arrow_redo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/arrow_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/arrow_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/arrow_undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/arrow_undo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/control_pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/control_pause.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/control_pause_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/control_pause_blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/control_play.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/control_play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/control_play_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/control_play_blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/control_stop.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/control_stop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/control_stop_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/control_stop_blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/film.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/film.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/funnel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/funnel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/house.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/house.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/infill.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/infill.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/spool.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/spool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../var/variable_layer_height.png" beforeDir="false" afterPath="$PROJECT_DIR$/../var/variable_layer_height.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wing_test_rel_ext.gcode" beforeDir="false" afterPath="$PROJECT_DIR$/../wing_test_rel_ext.gcode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/MANIFEST.SKIP" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/MANIFEST.SKIP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/lib/Slic3r/XS.pm" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/lib/Slic3r/XS.pm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/libslic3r.doxygen" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/libslic3r.doxygen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/main.xs.in" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/main.xs.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/BSpline/BSpline.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/BSpline/BSpline.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/BSpline/BSpline.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/BSpline/BSpline.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/BSpline/BandedMatrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/BSpline/BandedMatrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/BSpline/COPYRIGHT" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/BSpline/COPYRIGHT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/Zip/ZipArchive.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/Zip/ZipArchive.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/Zip/ZipArchive.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/Zip/ZipArchive.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/admesh/connect.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/admesh/connect.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/admesh/normals.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/admesh/normals.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/admesh/portable_endian.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/admesh/portable_endian.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/admesh/shared.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/admesh/shared.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/admesh/stl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/admesh/stl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/admesh/stl_io.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/admesh/stl_io.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/admesh/stlinit.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/admesh/stlinit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/admesh/util.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/admesh/util.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/COPYING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/README" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/ascii.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/ascii.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/asciitab.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/asciitab.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/expat.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/expat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/expat_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/expat_config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/expat_external.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/expat_external.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/iasciitab.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/iasciitab.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/internal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/latin1tab.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/latin1tab.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/nametab.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/nametab.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/utf8tab.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/utf8tab.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/xmlparse.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/xmlparse.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/xmlrole.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/xmlrole.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/xmlrole.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/xmlrole.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/xmltok.c" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/xmltok.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/xmltok.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/xmltok.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/xmltok_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/xmltok_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/xmltok_impl.inc" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/xmltok_impl.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/expat/xmltok_ns.inc" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/expat/xmltok_ns.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/exprtk/exprtk.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/exprtk/exprtk.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/BoundingBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/BoundingBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/BoundingBox.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/BoundingBox.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/BridgeDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/BridgeDetector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/BridgeDetector.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/BridgeDetector.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ClipperUtils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ClipperUtils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ClipperUtils.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ClipperUtils.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ConditionalGCode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ConditionalGCode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ConditionalGCode.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ConditionalGCode.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Config.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Config.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Config.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Config.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ExPolygon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ExPolygon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ExPolygon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ExPolygon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ExPolygonCollection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ExPolygonCollection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ExPolygonCollection.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ExPolygonCollection.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Extruder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Extruder.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Extruder.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Extruder.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ExtrusionEntity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ExtrusionEntity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ExtrusionEntity.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ExtrusionEntity.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ExtrusionEntityCollection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ExtrusionEntityCollection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/ExtrusionEntityCollection.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/ExtrusionEntityCollection.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/Fill.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/Fill.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/Fill.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/Fill.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/Fill3DHoneycomb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/Fill3DHoneycomb.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/Fill3DHoneycomb.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/Fill3DHoneycomb.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillConcentric.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillConcentric.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillConcentric.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillConcentric.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillHoneycomb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillHoneycomb.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillHoneycomb.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillHoneycomb.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillPlanePath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillPlanePath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillPlanePath.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillPlanePath.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillRectilinear.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillRectilinear.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillRectilinear.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Fill/FillRectilinear.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Flow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Flow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Flow.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Flow.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCode.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCode.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCode/CoolingBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCode/CoolingBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCode/CoolingBuffer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCode/CoolingBuffer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCode/SpiralVase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCode/SpiralVase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCode/SpiralVase.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCode/SpiralVase.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeReader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeReader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeReader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeReader.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeSender.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeSender.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeSender.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeSender.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeTimeEstimator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeTimeEstimator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeTimeEstimator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeTimeEstimator.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeWriter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeWriter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeWriter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/GCodeWriter.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Geometry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Geometry.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Geometry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Geometry.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/IO.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/IO.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/IO.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/IO.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/IO/AMF.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/IO/AMF.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/IO/TMF.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/IO/TMF.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/IO/TMF.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/IO/TMF.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/LayerHeightSpline.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/LayerHeightSpline.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/LayerHeightSpline.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/LayerHeightSpline.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/LayerRegion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/LayerRegion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/LayerRegionFill.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/LayerRegionFill.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Line.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Line.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Line.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Line.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Model.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Model.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Model.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/MotionPlanner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/MotionPlanner.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/MotionPlanner.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/MotionPlanner.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/MultiPoint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/MultiPoint.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/MultiPoint.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/MultiPoint.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/NonplanarFacet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/NonplanarFacet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/NonplanarFacet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/NonplanarFacet.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/NonplanarSurface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/NonplanarSurface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/NonplanarSurface.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/NonplanarSurface.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PerimeterGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PerimeterGenerator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PerimeterGenerator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PerimeterGenerator.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PlaceholderParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PlaceholderParser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PlaceholderParser.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PlaceholderParser.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Point.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Point.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Point.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Polygon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Polygon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Polygon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Polygon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Polyline.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Polyline.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Polyline.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Polyline.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PolylineCollection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PolylineCollection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PolylineCollection.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PolylineCollection.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Print.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Print.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Print.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Print.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PrintConfig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PrintConfig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PrintConfig.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PrintConfig.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PrintObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PrintObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/PrintRegion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/PrintRegion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SLAPrint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SLAPrint.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SLAPrint.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SLAPrint.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SVG.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SVG.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SVG.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SVG.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SlicingAdaptive.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SlicingAdaptive.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SlicingAdaptive.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SlicingAdaptive.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SupportMaterial.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SupportMaterial.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Surface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Surface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/Surface.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/Surface.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SurfaceCollection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SurfaceCollection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/SurfaceCollection.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/SurfaceCollection.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/TriangleMesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/TriangleMesh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/TriangleMesh.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/TriangleMesh.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/libslic3r.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/libslic3r.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/utils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/libslic3r/utils.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/libslic3r/utils.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/miniz/miniz.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/miniz/miniz.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/perlglue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/perlglue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/common/shapes.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/common/shapes.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/common/shapes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/common/shapes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/common/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/common/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/poly2tri.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/poly2tri.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/advancing_front.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/advancing_front.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/advancing_front.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/advancing_front.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/cdt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/cdt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/cdt.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/cdt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/sweep.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/sweep.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/sweep.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/sweep.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/sweep_context.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/sweep_context.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/sweep_context.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/poly2tri/sweep/sweep_context.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/polypartition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/polypartition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/polypartition.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/polypartition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/ppport.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/ppport.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/slic3r/GUI/3DScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/slic3r/GUI/3DScene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/slic3r/GUI/3DScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/slic3r/GUI/3DScene.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/slic3r/GUI/GUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/slic3r/GUI/GUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/slic3r/GUI/GUI.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/slic3r/GUI/GUI.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/slic3r/GUI/wxPerlIface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/slic3r/GUI/wxPerlIface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/tiny_obj_loader.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/tiny_obj_loader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/src/xsinit.h" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/src/xsinit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/01_trianglemesh.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/01_trianglemesh.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/03_point.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/03_point.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/04_expolygon.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/04_expolygon.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/05_surface.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/05_surface.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/06_polygon.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/06_polygon.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/07_extrusionpath.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/07_extrusionpath.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/08_extrusionloop.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/08_extrusionloop.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/09_polyline.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/09_polyline.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/10_line.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/10_line.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/11_clipper.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/11_clipper.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/12_extrusionpathcollection.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/12_extrusionpathcollection.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/13_polylinecollection.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/13_polylinecollection.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/14_geometry.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/14_geometry.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/15_config.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/15_config.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/16_flow.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/16_flow.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/17_boundingbox.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/17_boundingbox.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/18_motionplanner.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/18_motionplanner.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/19_model.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/19_model.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/20_print.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/20_print.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/21_gcode.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/21_gcode.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/22_exception.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/22_exception.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/23_3mf.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/23_3mf.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/24_gcodemath.t" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/24_gcodemath.t" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/inc/22_config_bad_config_options.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/inc/22_config_bad_config_options.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/models/3mf/chess.3mf" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/models/3mf/chess.3mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/models/3mf/gimblekeychain.3mf" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/models/3mf/gimblekeychain.3mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/models/amf/FaceColors.amf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/models/amf/FaceColors.amf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/t/models/stl/spikey_top.stl" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/t/models/stl/spikey_top.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/BoundingBox.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/BoundingBox.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/BridgeDetector.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/BridgeDetector.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Clipper.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Clipper.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/ConditionalGCode.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/ConditionalGCode.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Config.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Config.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/ExPolygon.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/ExPolygon.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/ExPolygonCollection.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/ExPolygonCollection.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Extruder.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Extruder.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/ExtrusionEntityCollection.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/ExtrusionEntityCollection.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/ExtrusionLoop.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/ExtrusionLoop.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/ExtrusionPath.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/ExtrusionPath.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Filler.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Filler.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Flow.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Flow.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/GCode.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/GCode.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/GCodeSender.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/GCodeSender.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/GCodeTimeEstimator.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/GCodeTimeEstimator.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/GCodeWriter.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/GCodeWriter.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/GUI.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/GUI.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/GUI_3DScene.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/GUI_3DScene.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Geometry.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Geometry.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Layer.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Layer.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/LayerHeightSpline.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/LayerHeightSpline.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Line.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Line.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Model.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Model.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/MotionPlanner.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/MotionPlanner.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/NonplanarFacet.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/NonplanarFacet.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/NonplanarSurface.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/NonplanarSurface.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/PerimeterGenerator.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/PerimeterGenerator.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/PlaceholderParser.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/PlaceholderParser.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Point.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Point.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Polygon.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Polygon.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Polyline.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Polyline.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/PolylineCollection.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/PolylineCollection.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Print.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Print.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/SLAPrint.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/SLAPrint.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/SlicingAdaptive.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/SlicingAdaptive.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/SupportMaterial.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/SupportMaterial.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/Surface.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/Surface.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/SurfaceCollection.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/SurfaceCollection.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/TriangleMesh.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/TriangleMesh.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/XS.xsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/XS.xsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/my.map" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/my.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/mytype.map" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/mytype.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xs/xsp/typemap.xspt" beforeDir="false" afterPath="$PROJECT_DIR$/../xs/xsp/typemap.xspt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1eBarDxW1OxGGBnt4woBhUty9Ah" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9e6c4f3-a2ff-4ec8-810e-13806a5ea62c" name="Default Changelist" comment="" />
+      <created>1593797636959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593797636959</updated>
+      <workItem from="1593797638605" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1593797665229">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1593797665229" />
+  </component>
+</project>

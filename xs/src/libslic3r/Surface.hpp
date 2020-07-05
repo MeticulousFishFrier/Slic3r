@@ -6,7 +6,8 @@
 
 namespace Slic3r {
 
-enum SurfaceType { stTop, stBottom, stBottomBridge, stInternal, stInternalSolid, stInternalBridge, stInternalVoid, stTopNonplanar, stInternalSolidNonplanar};
+enum SurfaceType { stTop, stBottom, stBottomBridge, stInternal, stInternalSolid, stInternalBridge, stInternalVoid,
+ stTopNonplanar, stInternalSolidNonplanar, stBottomNonplanar,stBottomInternalSolidNonplanar};
 
 class Surface
 {

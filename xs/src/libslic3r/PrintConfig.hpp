@@ -156,9 +156,12 @@ class PrintObjectConfig : public virtual StaticPrintConfig
     public:
     ConfigOptionBool                adaptive_slicing;
     ConfigOptionPercent             adaptive_slicing_quality;
+
     ConfigOptionBool                nonplanar_layers;
+    ConfigOptionBool                nonplanar_bottom_layers;
     ConfigOptionFloat               nonplanar_layers_angle;
     ConfigOptionFloat               nonplanar_layers_height;
+
     ConfigOptionBool                dont_support_bridges;
     ConfigOptionFloatOrPercent      extrusion_width;
     ConfigOptionFloatOrPercent      first_layer_height;
@@ -197,6 +200,7 @@ class PrintObjectConfig : public virtual StaticPrintConfig
         OPT_PTR(adaptive_slicing);
         OPT_PTR(adaptive_slicing_quality);
         OPT_PTR(nonplanar_layers);
+        OPT_PTR(nonplanar_bottom_layers);
         OPT_PTR(nonplanar_layers_angle);
         OPT_PTR(nonplanar_layers_height);
         OPT_PTR(dont_support_bridges);

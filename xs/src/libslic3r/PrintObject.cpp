@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <vector>
 #include "SVG.hpp"
-
+#include <cmath>
 namespace Slic3r {
 
 PrintObject::PrintObject(Print* print, ModelObject* model_object, const BoundingBoxf3 &modobj_bbox)
@@ -356,11 +356,12 @@ PrintObject::detect_surfaces_type()
 void
 PrintObject::debug_svg_print()
 {
+    printf("work");
     FOREACH_REGION(this->_print, region) {
         FOREACH_LAYER(this, layer_it) {
             Layer* layer        = *layer_it;
             LayerRegion* layerm = layer->get_region(region - this->_print->regions.begin());
-            SVG svg("svg/slice" + std::to_string(layer->id()) + ".svg");
+            SVG svg("slice" + std::to_string(layer->id()) + ".svg");
             for (Surfaces::iterator surface = layerm->slices.surfaces.begin(); surface != layerm->slices.surfaces.end(); ++surface) {
                 std::string color = "grey";
                 if (surface->surface_type == stTopNonplanar) color = "red";
@@ -378,7 +379,7 @@ PrintObject::debug_svg_print()
             svg.arrows = false;
             svg.Close();
 
-            SVG svg1("svg/fill" + std::to_string(layer->id()) + ".svg");
+            SVG svg1("fill" + std::to_string(layer->id()) + ".svg");
             for (Surfaces::iterator surface = layerm->fill_surfaces.surfaces.begin(); surface != layerm->fill_surfaces.surfaces.end(); ++surface) {
                 std::string color = "grey";
                 if (surface->surface_type == stTopNonplanar) color = "red";
@@ -1153,6 +1154,8 @@ PrintObject::find_nonplanar_surfaces()
         if (! (*it)->modifier) {
             const TriangleMesh mesh = (*it)->mesh;
             std::map<int, NonplanarFacet> facets;
+            std::map<int, NonplanarFacet> bottom_facets; //nonplanar facets that have normals pointing towards the build plate
+
             //store all meshes with slope <= nonplanar_layers_angle in map. Map is necessary to keep facet ID
             for (int i = 0; i < mesh.stl.stats.number_of_facets; ++ i) {
                 stl_facet* facet = mesh.stl.facet_start + i;
@@ -1173,44 +1176,64 @@ PrintObject::find_nonplanar_surfaces()
                     new_facet.calculate_stats();
                     facets[i] = new_facet;
                 }
+                else if(facet->normal.z <= std::cos(this->config.nonplanar_layers_angle.value * 3.14159265/180.0)){
+                    //copy facet
+                    NonplanarFacet new_facet;
+                    new_facet.normal.x = facet->normal.x;
+                    new_facet.normal.y = facet->normal.y;
+                    new_facet.normal.z = facet->normal.z;
+                    stl_neighbors* neighbors = mesh.stl.neighbors_start + i;
+                    for (int j=0; j<=2 ;j++) {
+                        new_facet.vertex[j].x = facet->vertex[j].x;
+                        new_facet.vertex[j].y = facet->vertex[j].y;
+                        new_facet.vertex[j].z = facet->vertex[j].z;
+                        new_facet.neighbor[j] = neighbors->neighbor[j];
+                    }
+                    new_facet.calculate_stats();
+                    bottom_facets[i] = new_facet;
+                }
             }
-            //create nonplanar surface from 
-            NonplanarSurface nf = NonplanarSurface(facets);
+            //create nonplanar surface from facets and thengroup surfaces and attach all nonplanar surfaces to the PrintObject
+            this->nonplanar_surfaces = NonplanarSurface(facets).group_surfaces();
+            this->bottom_nonplanar_surfaces = NonplanarSurface(bottom_facets).group_surfaces();
 
-            //group surfaces and attach all nonplanar surfaces to the PrintObject
-            this->nonplanar_surfaces = nf.group_surfaces();
+
             
-            //check if surfaces maintain maximum printing height, if not, erase it
-            for (NonplanarSurfaces::iterator it = this->nonplanar_surfaces.begin(); it!=this->nonplanar_surfaces.end();) {
-                if((*it).check_max_printing_height(this->config.nonplanar_layers_height.value)) {
-                    it = this->nonplanar_surfaces.erase(it);
-                }else {
-                    it++;
-                }
-            }
+            // //check if surfaces maintain maximum printing height, if not, erase it
+            // for (NonplanarSurfaces::iterator it = this->nonplanar_surfaces.begin(); it!=this->nonplanar_surfaces.end();) {
+            //     if((*it).check_max_printing_height(this->config.nonplanar_layers_height.value)) {
+            //         it = this->nonplanar_surfaces.erase(it);
+            //     }else {
+            //         it++;
+            //     }
+            // }
             
-            //check if surfaces area is not too small
-            for (NonplanarSurfaces::iterator it = this->nonplanar_surfaces.begin(); it!=this->nonplanar_surfaces.end();) {
-                if((*it).check_surface_area()) {
-                    it = this->nonplanar_surfaces.erase(it);
-                }else {
-                    it++;
-                }
-            }
+            // //check if surfaces area is not too small
+            // for (NonplanarSurfaces::iterator it = this->nonplanar_surfaces.begin(); it!=this->nonplanar_surfaces.end();) {
+            //     if((*it).check_surface_area()) {
+            //         it = this->nonplanar_surfaces.erase(it);
+            //     }else {
+            //         it++;
+            //     }
+            // }
             
             //Move facets to 0,0,0
             for (auto& surface : this->nonplanar_surfaces) {
                 surface.translate(-mesh.stl.stats.min.x,-mesh.stl.stats.min.y,-mesh.stl.stats.min.z);
             }
             
-            //check if surfaces areas collide
-            for (NonplanarSurfaces::iterator it = this->nonplanar_surfaces.begin(); it!=this->nonplanar_surfaces.end();) {
-                if(check_nonplanar_collisions((*it))) {
-                    it = this->nonplanar_surfaces.erase(it);
-                }else {
-                    it++;
-                }
+            for (auto& surface : this->bottom_nonplanar_surfaces) {
+                surface.translate(-mesh.stl.stats.min.x,-mesh.stl.stats.min.y,-mesh.stl.stats.min.z);
             }
+            
+            // //check if surfaces areas collide
+            // for (NonplanarSurfaces::iterator it = this->nonplanar_surfaces.begin(); it!=this->nonplanar_surfaces.end();) {
+            //     if(check_nonplanar_collisions((*it))) {
+            //         it = this->nonplanar_surfaces.erase(it);
+            //     }else {
+            //         it++;
+            //     }
+            // }
         }
     }
 }

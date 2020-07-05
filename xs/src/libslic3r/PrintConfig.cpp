@@ -43,12 +43,19 @@ PrintConfigDef::PrintConfigDef()
     def->default_value = new ConfigOptionPercent(75);
     
     def = this->add("nonplanar_layers", coBool);
-    def->label = "Use nonplanar layers";
+    def->label = "Use nonplanar top layers";
     def->category = "Layers and Perimeters";
     def->tooltip = "Generate nonplanar layers ontop of the object";
     def->cli = "nonplanar_layers!";
     def->default_value = new ConfigOptionBool(false);
     
+    def = this->add("nonplanar_first_layers", coBool);
+    def->label = "Use nonplanar first layers";
+    def->category = "Layers and Perimeters";
+    def->tooltip = "Generate nonplanar layers on the bottom of the object";
+    def->cli = "nonplanar_first_layers!";
+    def->default_value = new ConfigOptionBool(false);
+
     def = this->add("nonplanar_layers_angle", coFloat);
     def->label = "Maximum nonplanar angle";
     def->category = "Layers and Perimeters";

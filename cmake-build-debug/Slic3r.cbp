@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Slic3r"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\xs\;CMake Files\cmake\;CMake Files\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slic3r">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/slic3r" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 slic3r"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slic3r/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/slic3r" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 slic3r/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipper">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libclipper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clipper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipper/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libclipper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clipper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libslic3r_gui">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/liblibslic3r_gui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 libslic3r_gui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libslic3r_gui/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/liblibslic3r_gui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 libslic3r_gui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libslic3r">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/liblibslic3r.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 libslic3r"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libslic3r/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/liblibslic3r.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 libslic3r/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="polypartition">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libpolypartition.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 polypartition"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="polypartition/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libpolypartition.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 polypartition/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZipArchive">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libZipArchive.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 ZipArchive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZipArchive/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libZipArchive.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 ZipArchive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="XS">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/XS.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSLIC3RXS"/>
+					<Add option="-DSLIC3R_GUI"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 XS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="XS/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/XS.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSLIC3RXS"/>
+					<Add option="-DSLIC3R_GUI"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 XS/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BSpline">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libBSpline.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 BSpline"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BSpline/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libBSpline.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 BSpline/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="poly2tri">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libpoly2tri.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 poly2tri"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="poly2tri/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libpoly2tri.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 poly2tri/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="admesh">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libadmesh.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 admesh"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="admesh/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libadmesh.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 admesh/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nowide">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libnowide.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 nowide"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nowide/fast">
+				<Option output="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/libnowide.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DwxUSE_UNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-Dexprtk_disable_rtl_io_file"/>
+					<Add option="-Dexprtk_disable_return_statement"/>
+					<Add option="-Dexprtk_disable_rtl_vecops"/>
+					<Add option="-Dexprtk_disable_string_capabilities"/>
+					<Add option="-Dexprtk_disable_enhanced_features"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src"/>
+					<Add directory="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 nowide/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/XS.cpp">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/XS.cpp.rule">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake-build-debug/xs/typemap.rule">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/src/slic3r.cpp">
+			<Option target="slic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/BSpline/BSpline.cpp">
+			<Option target="BSpline"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/BSpline/BSpline.h">
+			<Option target="BSpline"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/BSpline/BandedMatrix.h">
+			<Option target="BSpline"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/Zip/ZipArchive.cpp">
+			<Option target="ZipArchive"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/Zip/ZipArchive.hpp">
+			<Option target="ZipArchive"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/admesh/connect.c">
+			<Option target="admesh"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/admesh/normals.c">
+			<Option target="admesh"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/admesh/shared.c">
+			<Option target="admesh"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/admesh/stl.h">
+			<Option target="admesh"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/admesh/stl_io.c">
+			<Option target="admesh"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/admesh/stlinit.c">
+			<Option target="admesh"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/admesh/util.c">
+			<Option target="admesh"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/args.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/cenv.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/config.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/convert.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/cstdio.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/cstdlib.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/filebuf.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/fstream.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/integration/filesystem.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/iostream.cpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/iostream.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/stackstring.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/system.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/utf8_codecvt.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/boost/nowide/windows.hpp">
+			<Option target="nowide"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/clipper.cpp">
+			<Option target="clipper"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/clipper.hpp">
+			<Option target="clipper"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/BoundingBox.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/BoundingBox.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/BridgeDetector.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/BridgeDetector.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ClipperUtils.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ClipperUtils.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ConditionalGCode.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ConditionalGCode.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Config.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Config.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ExPolygon.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ExPolygon.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ExPolygonCollection.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ExPolygonCollection.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Extruder.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Extruder.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ExtrusionEntity.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ExtrusionEntity.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ExtrusionEntityCollection.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/ExtrusionEntityCollection.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/Fill.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/Fill.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/Fill3DHoneycomb.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/Fill3DHoneycomb.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/FillConcentric.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/FillConcentric.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/FillHoneycomb.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/FillHoneycomb.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/FillPlanePath.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/FillPlanePath.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/FillRectilinear.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Fill/FillRectilinear.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Flow.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Flow.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCode.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCode.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCode/CoolingBuffer.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCode/CoolingBuffer.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCode/SpiralVase.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCode/SpiralVase.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCodeReader.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCodeReader.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCodeSender.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCodeSender.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCodeTimeEstimator.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCodeTimeEstimator.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCodeWriter.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/GCodeWriter.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Geometry.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Geometry.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/IO.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/IO.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/IO/AMF.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/IO/TMF.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/IO/TMF.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Layer.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Layer.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/LayerHeightSpline.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/LayerHeightSpline.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/LayerRegion.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/LayerRegionFill.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Line.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Line.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Model.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Model.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/MotionPlanner.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/MotionPlanner.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/MultiPoint.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/MultiPoint.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/NonplanarFacet.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/NonplanarFacet.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/NonplanarSurface.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/NonplanarSurface.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PerimeterGenerator.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PerimeterGenerator.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PlaceholderParser.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PlaceholderParser.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Point.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Point.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Polygon.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Polygon.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Polyline.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Polyline.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PolylineCollection.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PolylineCollection.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Print.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Print.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PrintConfig.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PrintConfig.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PrintObject.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/PrintRegion.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SLAPrint.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SLAPrint.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SVG.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SVG.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SlicingAdaptive.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SlicingAdaptive.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SupportMaterial.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Surface.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/Surface.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SurfaceCollection.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/SurfaceCollection.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/TriangleMesh.cpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/TriangleMesh.hpp">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/libslic3r.h">
+			<Option target="libslic3r"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/utils.cpp">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/libslic3r/utils.hpp">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/perlglue.cpp">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/common/shapes.cc">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/common/shapes.h">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/common/utils.h">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/poly2tri.h">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/sweep/advancing_front.cc">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/sweep/advancing_front.h">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/sweep/cdt.cc">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/sweep/cdt.h">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/sweep/sweep.cc">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/sweep/sweep.h">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/sweep/sweep_context.cc">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/poly2tri/sweep/sweep_context.h">
+			<Option target="poly2tri"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/polypartition.cpp">
+			<Option target="polypartition"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/polypartition.h">
+			<Option target="polypartition"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/ppport.h">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/slic3r/GUI/3DScene.cpp">
+			<Option target="libslic3r_gui"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/slic3r/GUI/3DScene.hpp">
+			<Option target="libslic3r_gui"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/slic3r/GUI/GUI.cpp">
+			<Option target="libslic3r_gui"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/slic3r/GUI/GUI.hpp">
+			<Option target="libslic3r_gui"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/slic3r/GUI/wxPerlIface.cpp">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/src/xsinit.h">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/xsp/my.map">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/xsp/mytype.map">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/xsp/typemap.xspt">
+			<Option target="XS"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\xs\"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/xs/main.xs.in">
+			<Option virtualFolder="CMake Files\xs\"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake/modules/FindPerlEmbed.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/xueyelin/Thermite_Boom_Boom/Code/Nonplanar/Slic3r/cmake/modules/LibFindMacros.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

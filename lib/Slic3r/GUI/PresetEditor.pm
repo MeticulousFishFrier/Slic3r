@@ -438,7 +438,7 @@ sub options {
     return qw(
         layer_height first_layer_height
         adaptive_slicing adaptive_slicing_quality match_horizontal_surfaces
-        nonplanar_layers nonplanar_layers_angle nonplanar_layers_height
+        nonplanar_layers nonplanar_first_layers nonplanar_layers_angle nonplanar_layers_height
         perimeters spiral_vase
         top_solid_layers bottom_solid_layers
         extra_perimeters avoid_crossing_perimeters thin_walls overhangs
@@ -522,6 +522,7 @@ sub build {
         {
             my $optgroup = $page->new_optgroup('Nonplanar layers');
             $optgroup->append_single_option_line('nonplanar_layers');
+            $optgroup->append_single_option_line('nonplanar_first_layers');
             $optgroup->append_single_option_line('nonplanar_layers_angle');
             $optgroup->append_single_option_line('nonplanar_layers_height');
         }

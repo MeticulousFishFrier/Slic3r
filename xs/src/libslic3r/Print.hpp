@@ -88,6 +88,7 @@ class PrintObject
     LayerHeightSpline layer_height_spline;
 
     NonplanarSurfaces nonplanar_surfaces;
+    NonplanarSurfaces bottom_nonplanar_surfaces;
 
     // this is set to true when LayerRegion->slices is split in top/internal/bottom
     // so that next call to make_perimeters() performs a union() before computing loops

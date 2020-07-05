@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="2000" width="2000" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <marker id="endArrow" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
+      <polyline fill="darkblue" points="0,0 10,5 0,10 1,5" />
+   </marker>
+   <path d="M 998.109 998.109 301.325 998.109 301.325 17.8905 998.109 17.8905 z " style="fill: brown; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 998.109 998.109 301.325 998.109 301.325 17.8905 998.109 17.8905 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 72.194 998.11 17.8904 998.11 17.8904 17.8904 72.194 17.8904 z " style="fill: blue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 72.194 998.11 17.8904 998.11 17.8904 17.8904 72.194 17.8904 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 301.325 998.109 186.76 998.109 186.76 17.8905 301.325 17.8905 z " style="fill: yellow; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 301.325 998.109 186.76 998.109 186.76 17.8905 301.325 17.8905 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 74.0999 17.8904 156.76 17.8904 156.76 17.8903 186.76 17.8903 186.76 17.8904 186.76 17.8904 186.76 998.11 186.76 998.11 186.76 998.11 156.76 998.11 156.76 998.11 74.0999 998.11 74.0999 998.11 72.1941 998.11 72.1941 17.8903 74.0999 17.8903 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 74.0999 17.8904 156.76 17.8904 156.76 17.8903 186.76 17.8903 186.76 17.8904 186.76 17.8904 186.76 998.11 186.76 998.11 186.76 998.11 156.76 998.11 156.76 998.11 74.0999 998.11 74.0999 998.11 72.1941 998.11 72.1941 17.8903 74.0999 17.8903 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+</svg>

@@ -1,0 +1,86 @@
+solid Onshape
+  facet normal -1 0 0
+    outer loop
+      vertex -2.77556e-14 0 10.16
+      vertex -2.77556e-14 0 6.35
+      vertex -2.77556e-14 -101.6 10.16
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -2.77556e-14 0 6.35
+      vertex -2.77556e-14 -101.6 6.35
+      vertex -2.77556e-14 -101.6 10.16
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -2.77556e-14 0 6.35
+      vertex -2.77556e-14 0 10.16
+      vertex 101.6 0 2.54
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -2.77556e-14 0 10.16
+      vertex 101.6 0 10.16
+      vertex 101.6 0 2.54
+    endloop
+  endfacet
+  facet normal -0.0374737 0 -0.999298
+    outer loop
+      vertex -2.77556e-14 0 6.35
+      vertex 101.6 0 2.54
+      vertex -2.77556e-14 -101.6 6.35
+    endloop
+  endfacet
+  facet normal -0.0374737 0 -0.999298
+    outer loop
+      vertex 101.6 0 2.54
+      vertex 101.6 -101.6 2.54
+      vertex -2.77556e-14 -101.6 6.35
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -2.77556e-14 -101.6 6.35
+      vertex 101.6 -101.6 2.54
+      vertex 101.6 -101.6 10.16
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -2.77556e-14 -101.6 10.16
+      vertex -2.77556e-14 -101.6 6.35
+      vertex 101.6 -101.6 10.16
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -2.77556e-14 -101.6 10.16
+      vertex 101.6 -101.6 10.16
+      vertex -2.77556e-14 0 10.16
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 101.6 -101.6 10.16
+      vertex 101.6 0 10.16
+      vertex -2.77556e-14 0 10.16
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 101.6 -101.6 10.16
+      vertex 101.6 -101.6 2.54
+      vertex 101.6 0 10.16
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 101.6 -101.6 2.54
+      vertex 101.6 0 2.54
+      vertex 101.6 0 10.16
+    endloop
+  endfacet
+endsolid Onshape

@@ -159,8 +159,8 @@ sub detect_nonplanar_surfaces {
     $self->slice;
 
     # Detect nonplanar surfaces areas and move them to the heighest layer of the nonplanar_surface
-    $self->print->status_cb->(25, "Move nonplanar surfaces up");
-    $self->move_nonplanar_surfaces_up;
+    #$self->print->status_cb->(25, "Move nonplanar surfaces up");
+    #$self->move_nonplanar_surfaces_up;
 }
 
 sub prepare_infill {
@@ -170,7 +170,6 @@ sub prepare_infill {
 
     #detect the nonplanar surfaces and move them to top layer
     $self->detect_nonplanar_surfaces;
-    
 
     # This prepare_infill() is not really idempotent.
     # TODO: It should clear and regenerate fill_surfaces at every run
@@ -205,7 +204,12 @@ sub prepare_infill {
     $self->combine_infill;
 
     $self->set_step_done(STEP_PREPARE_INFILL);
-    #$self->debug_svg_print;
+    
+    #TODO: figure out how to get svg to work to mark identifiable nonplanar layers
+    print "begin debug svg \n";
+    $self->debug_svg_print;
+    print "finish debug svg \n";
+
 }
 
 sub infill {
@@ -217,7 +221,8 @@ sub infill {
     $self->_infill;
     
     $self->print->status_cb->(35, "Project nonplanar surfaces down");
-    $self->project_nonplanar_surfaces;
+    #$self->project_nonplanar_surfaces;
+    print "infilling rn\n"
 }
 
 sub generate_support_material {
