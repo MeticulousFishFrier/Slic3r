@@ -366,6 +366,10 @@ PrintObject::debug_svg_print()
                 std::string color = "grey";
                 if (surface->surface_type == stTopNonplanar) color = "red";
                 if (surface->surface_type == stInternalSolidNonplanar) color = "orange";
+
+                if (surface->surface_type == stBottomNonplanar) color = "deeppink";
+                if (surface->surface_type == stBottomInternalSolidNonplanar) color = "lightpink";
+                
                 if (surface->surface_type == stTop) color = "blue";
                 if (surface->surface_type == stInternalSolid) color = "lightblue";
                 if (surface->surface_type == stBottom) color = "green";
@@ -1162,6 +1166,8 @@ PrintObject::find_nonplanar_surfaces()
                 //TODO check if normals exist
                 if (facet->normal.z >= std::cos(this->config.nonplanar_layers_angle.value * 3.14159265/180.0)) {
                     //copy facet
+                    //why not make a copy constructor and a assignment operator?
+                    //TODO: make a copy constructor and assignment operator for nonplanarfacests class 
                     NonplanarFacet new_facet;
                     new_facet.normal.x = facet->normal.x;
                     new_facet.normal.y = facet->normal.y;
@@ -1175,8 +1181,9 @@ PrintObject::find_nonplanar_surfaces()
                     }
                     new_facet.calculate_stats();
                     facets[i] = new_facet;
+                    //debug to see what the facets actually are
                 }
-                else if(facet->normal.z <= std::cos(this->config.nonplanar_layers_angle.value * 3.14159265/180.0)){
+                else if(facet->normal.z <= -std::cos(this->config.nonplanar_layers_angle.value * 3.14159265/180.0)){
                     //copy facet
                     NonplanarFacet new_facet;
                     new_facet.normal.x = facet->normal.x;
@@ -1195,7 +1202,13 @@ PrintObject::find_nonplanar_surfaces()
             }
             //create nonplanar surface from facets and thengroup surfaces and attach all nonplanar surfaces to the PrintObject
             this->nonplanar_surfaces = NonplanarSurface(facets).group_surfaces();
+            //debug
+            NonplanarSurface(facets).debug_output();
             this->bottom_nonplanar_surfaces = NonplanarSurface(bottom_facets).group_surfaces();
+            //debug 2
+            std::cout<<std::endl;
+            NonplanarSurface(bottom_facets).debug_output();
+
 
 
             

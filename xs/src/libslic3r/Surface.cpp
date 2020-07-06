@@ -22,14 +22,18 @@ Surface::is_solid() const
         || this->surface_type == stInternalSolid
         || this->surface_type == stInternalBridge
         || this->surface_type == stTopNonplanar
-        || this->surface_type == stInternalSolidNonplanar;
+        || this->surface_type == stInternalSolidNonplanar
+        || this->surface_type == stBottomNonplanar
+        || this->surface_type == stBottomInternalSolidNonplanar;;
 }
 
 bool
 Surface::is_nonplanar() const
 {
     return this->surface_type == stTopNonplanar
-        || this->surface_type == stInternalSolidNonplanar;
+        || this->surface_type == stInternalSolidNonplanar
+        || this->surface_type == stBottomNonplanar
+        || this->surface_type == stBottomInternalSolidNonplanar;
 }
 
 bool

@@ -311,6 +311,9 @@ Layer::detect_surfaces_type()
                 (surface.stats.max.z <= this->slice_z + this->height ? stTopNonplanar : stInternalSolidNonplanar)
             );
         }
+
+        //Find mark BOTTOM nonplanar surfaces
+
         
         //remove non planar surfaces form all surfaces to get planar surfaces
         Polygons planar_surfaces = diff(layerm_slices_surfaces,nonplanar_surfaces,true);
