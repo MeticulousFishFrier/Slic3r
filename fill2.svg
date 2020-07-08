@@ -4,8 +4,10 @@
    <marker id="endArrow" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
       <polyline fill="darkblue" points="0,0 10,5 0,10 1,5" />
    </marker>
-   <path d="M 979.17 17.8905 979.17 17.8905 979.17 17.8904 998.11 17.8904 998.11 998.11 979.17 998.11 979.17 998.109 979.17 998.109 979.17 998.11 855.057 998.11 855.057 17.8904 979.17 17.8904 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 979.17 17.8905 979.17 17.8905 979.17 17.8904 998.11 17.8904 998.11 998.11 979.17 998.11 979.17 998.109 979.17 998.109 979.17 998.11 855.057 998.11 855.057 17.8904 979.17 17.8904 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 855.057 998.11 728.383 998.11 728.383 17.8904 855.057 17.8904 z " style="fill: lightgreen; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 855.057 998.11 728.383 998.11 728.383 17.8904 855.057 17.8904 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 982.11 17.8903 982.11 17.8903 960.872 982.11 960.872 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 982.11 17.8903 982.11 17.8903 960.872 982.11 960.872 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 539.128 17.8903 539.128 17.8903 460.872 982.11 460.872 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 539.128 17.8903 539.128 17.8903 460.872 982.11 460.872 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 39.1281 17.8903 39.1281 17.8903 17.8903 982.11 17.8903 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 39.1281 17.8903 39.1281 17.8903 17.8903 982.11 17.8903 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
 </svg>

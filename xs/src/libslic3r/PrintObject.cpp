@@ -368,14 +368,13 @@ PrintObject::debug_svg_print()
                 if (surface->surface_type == stInternalSolidNonplanar) color = "orange";
 
                 if (surface->surface_type == stBottomNonplanar) color = "deeppink";
-                if (surface->surface_type == stBottomInternalSolidNonplanar) color = "lightpink";
                 
                 if (surface->surface_type == stTop) color = "blue";
                 if (surface->surface_type == stInternalSolid) color = "lightblue";
                 if (surface->surface_type == stBottom) color = "green";
                 if (surface->surface_type == stBottomBridge) color = "lightgreen";
                 if (surface->surface_type == stInternalBridge) color = "yellow";
-                if (surface->surface_type == stInternal) color = "brown";
+                if (surface->surface_type == stInternal) color = "gold";
                 if (surface->surface_type == stInternalVoid) color = "purple";
                 svg.draw(surface->expolygon, color, 1.0f);
                 svg.draw_outline(surface->expolygon);
@@ -393,7 +392,7 @@ PrintObject::debug_svg_print()
                 if (surface->surface_type == stBottom) color = "green";
                 if (surface->surface_type == stBottomBridge) color = "lightgreen";
                 if (surface->surface_type == stInternalBridge) color = "yellow";
-                if (surface->surface_type == stInternal) color = "brown";
+                if (surface->surface_type == stInternal) color = "gold";
                 if (surface->surface_type == stInternalVoid) color = "purple";
                 svg1.draw(surface->expolygon, color, 1.0f);
                 svg1.draw_outline(surface->expolygon);
@@ -487,6 +486,14 @@ PrintObject::move_nonplanar_surfaces_up()
                 for (LayerPtrs::reverse_iterator home_layer_it = this->layers.rbegin(); home_layer_it != this->layers.rend(); ++home_layer_it){
                     Layer* home_layer        = *home_layer_it;
                     LayerRegion &home_layerm = *home_layer->regions[region_id];
+                    
+                    std::cout<<"the slice z is"<<home_layer->slice_z<<std::endl;
+                    std::cout<<"the home layer height z is"<<home_layer->height<<std::endl;
+
+                    std::cout<<"the nonplanar_surface max z is"<<nonplanar_surface.stats.max.z<<std::endl;
+
+                    std::cout<<"the distance to top is "<<distance_to_top<<"\n\n";
+
                     //continue if home layer is not maximum height of nonplanar_surface - the desired distance to the top of the surface for more than one top solid layer
                     if (home_layer->slice_z > nonplanar_surface.stats.max.z - distance_to_top) continue;
                     
@@ -496,7 +503,7 @@ PrintObject::move_nonplanar_surfaces_up()
                         LayerRegion &layerm = *layer->regions[region_id];
                         
                         //skip if below minimum nonplanar surface and below the last possible surface layer
-                        if (nonplanar_surface.stats.min.z-layer->height-distance_to_top > layer->slice_z) continue;
+                        if (nonplanar_surface.stats.min.z - layer->height - distance_to_top > layer->slice_z) continue;
                         //break if above home layer
                         if (home_layer->slice_z < layer->slice_z) break;
                         //skip if bottom layer because we dont want to project the bottom layers up
@@ -508,10 +515,9 @@ PrintObject::move_nonplanar_surfaces_up()
                             //append layers where nothing is above
                             Layer* upper_layer = layer->upper_layer;
                             LayerRegion &upper_layerm = *upper_layer->regions[region_id];
-                            Polygons upper_slices = upper_layerm.slices;
+                            Polygons upper_slices_surfaces = upper_layerm.slices;
                             topNonplanar.append(
-                                intersection_ex(nonplanar_surface.horizontal_projection(),
-                                union_ex(diff(layerm_slices_surfaces, upper_slices, false), false), false),
+                                intersection_ex(nonplanar_surface.horizontal_projection(),union_ex(diff(layerm_slices_surfaces, upper_slices_surfaces))),
                                 (shell_thickness == 0 ? stTopNonplanar : stInternalSolidNonplanar),
                                 distance_to_top
                             );
@@ -525,8 +531,7 @@ PrintObject::move_nonplanar_surfaces_up()
                             }
                             if (upper_nonplanar.size() > 0)
                             topNonplanar.append(
-                                intersection_ex(nonplanar_surface.horizontal_projection(),
-                                upper_nonplanar, false),
+                                intersection_ex(nonplanar_surface.horizontal_projection(),upper_nonplanar),
                                 (shell_thickness == 0 ? stTopNonplanar : stInternalSolidNonplanar),
                                 distance_to_top
                             );
@@ -535,8 +540,7 @@ PrintObject::move_nonplanar_surfaces_up()
                         }
                         else {
                             topNonplanar.append(
-                                intersection_ex(nonplanar_surface.horizontal_projection(),
-                                union_ex(layerm_slices_surfaces, false),false),
+                                intersection_ex(nonplanar_surface.horizontal_projection(),union_ex(layerm_slices_surfaces)),
                                 (shell_thickness == 0 ? stTopNonplanar : stInternalSolidNonplanar),
                                 distance_to_top
                             );
@@ -572,6 +576,127 @@ PrintObject::move_nonplanar_surfaces_up()
                     }
                     //increase distance to the top layer
                     distance_to_top += home_layer->height;
+                    break;
+                }
+            }
+        }
+    }
+    //set typed_slices to true to force merge
+    this->typed_slices = true;
+}
+
+// I know, I know the code is fucking atrocious, this is just an experiment to prove I can do it
+// I'll eventually combine  move_bottom_nonplanar_surfaces_down and move_nonplanar_surfaces_up
+void
+PrintObject::move_bottom_nonplanar_surfaces_down(){
+    std::cout<<"\n\nin bottom nonplanar surface down\n";
+    //skip if not active
+    if(!this->config.nonplanar_layers.value) return;
+    
+    FOREACH_REGION(this->_print, region_it) {
+        size_t region_id = region_it - this->_print->regions.begin();
+        const PrintRegion &region = **region_it;
+        
+        //repeat detection for every nonplanar_surface
+        for (auto& nonplanar_surface: this->bottom_nonplanar_surfaces) {
+            float distance_to_bottom = 0.0f;            
+            for (int shell_thickness = 0; region.config.bottom_solid_layers > shell_thickness; ++shell_thickness){
+                //search home layer where the area is projected to
+                //goes from bottom to top because we are moving layers to bottom
+                for (LayerPtrs::iterator home_layer_it = this->layers.begin(); home_layer_it != this->layers.end(); ++home_layer_it){
+                    Layer* home_layer        = *home_layer_it;
+                    LayerRegion &home_layerm = *home_layer->regions[region_id];
+                    
+                    std::cout<<"the slice z is"<<home_layer->slice_z<<std::endl;
+                    std::cout<<"the home layer height z is"<<home_layer->height<<std::endl;
+                    std::cout<<"the nonplanar_surface min z is"<<nonplanar_surface.stats.min.z<<std::endl;
+                    std::cout<<"the distance to top is "<<distance_to_bottom<<"\n\n";
+                    
+                    //continue if home layer is not min height of nonplanar_surface - the desired distance to the top of the surface for more than one top solid layer
+                    if (home_layer->slice_z < nonplanar_surface.stats.min.z + distance_to_bottom) continue;
+                    
+
+                    //process layers, goes from top to bottom
+
+                    for (LayerPtrs::reverse_iterator layer_it = this->layers.rbegin(); layer_it != this->layers.rend(); ++layer_it){
+                        Layer* layer        = *layer_it;
+                        LayerRegion &layerm = *layer->regions[region_id];
+                        
+                        //skip if above maximum bottom nonplanar surface and above the last possible surface layer
+                        if (nonplanar_surface.stats.max.z-layer->height-distance_to_bottom < layer->slice_z) continue;
+                        //break if below home layer
+                        if (home_layer->slice_z > layer->slice_z) break;
+                        //skip if top layer because we dont want to project the top layers down
+                        if (layer->upper_layer == NULL) continue;
+                    
+                        Polygons layerm_slices_surfaces = layerm.slices;
+                        SurfaceCollection bottomNonplanar;
+                        if (layer->lower_layer != NULL) {
+                            //append layers where nothing is below
+                            Layer* lower_layer = layer->lower_layer;
+                            LayerRegion &lower_layerm = *lower_layer->regions[region_id];
+                            Polygons lower_slices = lower_layerm.slices;
+                            bottomNonplanar.append(
+                                intersection_ex(nonplanar_surface.horizontal_projection(),
+                                union_ex(diff(layerm_slices_surfaces, lower_slices, false), false), false),
+                                (shell_thickness == 0 ? stBottomNonplanar : stInternalSolidNonplanar),
+                                distance_to_bottom
+                            );
+                            
+                            //append layers where nonplanar areas with a higher distance_to_bottom are below
+                            SurfaceCollection lower_nonplanar;
+                            for (auto& s : lower_layerm.slices.surfaces){
+                                if (s.is_nonplanar() && s.distance_to_bottom < distance_to_bottom){
+                                    lower_nonplanar.surfaces.push_back(s);
+                                }
+                            }
+                            if (lower_nonplanar.size() > 0)
+                            bottomNonplanar.append(
+                                intersection_ex(nonplanar_surface.horizontal_projection(),lower_nonplanar, false),
+                                (shell_thickness == 0 ? stBottomNonplanar : stInternalSolidNonplanar),
+                                distance_to_bottom
+                            );
+                            
+                            
+                        }
+                        else {
+                            bottomNonplanar.append(
+                                intersection_ex(nonplanar_surface.horizontal_projection(),union_ex(layerm_slices_surfaces, false),false),
+                                (shell_thickness == 0 ? stBottomNonplanar : stInternalSolidNonplanar),
+                                distance_to_bottom
+                            );
+                        }
+                        
+                        if (bottomNonplanar.size() > 0){
+                            //save previously detected nonplanar surfaces
+                            SurfaceCollection polyNonplanar;
+                            for(Surface s : layerm.slices.surfaces) {
+                                if (s.is_nonplanar()) {
+                                    polyNonplanar.surfaces.push_back(s);
+                                }
+                            }
+                            
+                            //save internal surfaces
+                            
+                            layerm.slices.clear();
+                            //add old surfaces again
+                            
+                            // append internal surfaces without the found topNonplanar surfaces
+                            layerm.slices.append(
+                                diff_ex(union_ex(layerm_slices_surfaces), ExPolygons(bottomNonplanar), false),
+                                stInternal
+                            );
+                            
+                            //move nonplanar surfaces to home layer
+                            home_layerm.slices.append(STDMOVE(bottomNonplanar));
+                            
+                            //save nonplanar_surface to home_layers nonplanar_surface list
+                            home_layerm.append_nonplanar_surface(nonplanar_surface);
+                            
+                        }
+                    }
+                    //increase distance to the bottom layer
+                    distance_to_bottom += home_layer->height;
                     break;
                 }
             }
@@ -1181,7 +1306,6 @@ PrintObject::find_nonplanar_surfaces()
                     }
                     new_facet.calculate_stats();
                     facets[i] = new_facet;
-                    //debug to see what the facets actually are
                 }
                 else if(facet->normal.z <= -std::cos(this->config.nonplanar_layers_angle.value * 3.14159265/180.0)){
                     //copy facet
@@ -1202,10 +1326,9 @@ PrintObject::find_nonplanar_surfaces()
             }
             //create nonplanar surface from facets and thengroup surfaces and attach all nonplanar surfaces to the PrintObject
             this->nonplanar_surfaces = NonplanarSurface(facets).group_surfaces();
-            //debug
+            //debug to see what the facets actually are
             NonplanarSurface(facets).debug_output();
             this->bottom_nonplanar_surfaces = NonplanarSurface(bottom_facets).group_surfaces();
-            //debug 2
             std::cout<<std::endl;
             NonplanarSurface(bottom_facets).debug_output();
 
@@ -1231,6 +1354,7 @@ PrintObject::find_nonplanar_surfaces()
             // }
             
             //Move facets to 0,0,0
+
             for (auto& surface : this->nonplanar_surfaces) {
                 surface.translate(-mesh.stl.stats.min.x,-mesh.stl.stats.min.y,-mesh.stl.stats.min.z);
             }

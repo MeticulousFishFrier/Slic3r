@@ -22,7 +22,9 @@
 			"xs/src/libslic3r/NonplanarFacet.cpp",
 			"xs/src/libslic3r/NonplanarFacet.hpp",
 			"xs/src/libslic3r/LayerRegion.cpp",
-			"xs/src/libslic3r/LayerRegionFill.cpp"
+			"xs/src/libslic3r/LayerRegionFill.cpp",
+			"xs/src/libslic3r/SurfaceCollection.cpp",
+			"xs/src/libslic3r/SurfaceCollection.hpp"
 		],
 		"files.associations": {
 			"valarray": "cpp",
@@ -90,7 +92,17 @@
 			"thread": "cpp",
 			"cfenv": "cpp",
 			"cinttypes": "cpp",
-			"typeindex": "cpp"
+			"typeindex": "cpp",
+			"core": "cpp",
+			"*.txx": "cpp",
+			"cholesky": "cpp",
+			"eigenvalues": "cpp",
+			"geometry": "cpp",
+			"householder": "cpp",
+			"jacobi": "cpp",
+			"lu": "cpp",
+			"qr": "cpp",
+			"svd": "cpp"
 		}
 	}
 }

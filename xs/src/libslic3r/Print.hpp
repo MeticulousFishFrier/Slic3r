@@ -152,6 +152,7 @@ class PrintObject
     void debug_svg_print();
     bool check_nonplanar_collisions(NonplanarSurface &surface);
     void move_nonplanar_surfaces_up();
+    void move_bottom_nonplanar_surfaces_down();
     void project_nonplanar_surfaces();
     void process_external_surfaces();
     void bridge_over_infill();

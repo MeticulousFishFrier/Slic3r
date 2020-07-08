@@ -4,8 +4,10 @@
    <marker id="endArrow" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
       <polyline fill="darkblue" points="0,0 10,5 0,10 1,5" />
    </marker>
-   <path d="M 825.058 1016 710.492 1016 710.492 0 825.058 0 z " style="fill: lightgreen; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 825.058 1016 710.492 1016 710.492 0 825.058 0 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1016 1016 825.058 1016 825.058 0 1016 0 z " style="fill: brown; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1016 1016 825.058 1016 825.058 0 1016 0 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 1000 1000 -0.0001 1000 -0.0001 942.982 1000 942.982 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 1000 1000 -0.0001 1000 -0.0001 942.982 1000 942.982 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 1000 557.018 -0.0001 557.018 -0.0001 442.982 1000 442.982 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 1000 557.018 -0.0001 557.018 -0.0001 442.982 1000 442.982 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 1000 57.0185 -0.0001 57.0185 -0.0001 -0.0001 1000 -0.0001 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 1000 57.0185 -0.0001 57.0185 -0.0001 -0.0001 1000 -0.0001 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
 </svg>

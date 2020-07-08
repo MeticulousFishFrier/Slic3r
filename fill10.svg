@@ -4,8 +4,8 @@
    <marker id="endArrow" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
       <polyline fill="darkblue" points="0,0 10,5 0,10 1,5" />
    </marker>
-   <path d="M 998.109 998.109 186.76 998.109 186.76 17.8905 998.109 17.8905 z " style="fill: brown; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 998.109 998.109 186.76 998.109 186.76 17.8905 998.109 17.8905 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 42.1943 17.8904 42.1944 17.8904 42.1944 17.8903 156.76 17.8903 156.76 17.8904 186.76 17.8904 186.76 998.11 156.76 998.11 156.76 998.11 42.1944 998.11 42.1944 998.11 42.1943 998.11 42.1943 998.11 17.8903 998.11 17.8903 17.8903 42.1943 17.8903 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 42.1943 17.8904 42.1944 17.8904 42.1944 17.8903 156.76 17.8903 156.76 17.8904 186.76 17.8904 186.76 998.11 156.76 998.11 156.76 998.11 42.1944 998.11 42.1944 998.11 42.1943 998.11 42.1943 998.11 17.8903 998.11 17.8903 17.8903 42.1943 17.8903 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 877.067 17.8904 877.067 17.8904 622.933 982.11 622.933 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 877.067 17.8904 877.067 17.8904 622.933 982.11 622.933 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 377.067 17.8904 377.067 17.8904 122.933 982.11 122.933 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 982.11 377.067 17.8904 377.067 17.8904 122.933 982.11 122.933 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
 </svg>

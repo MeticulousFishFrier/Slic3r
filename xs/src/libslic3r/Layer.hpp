@@ -60,6 +60,9 @@ class LayerRegion
     // Vector of nonplanar_surfaces which are homed in this layer
     NonplanarSurfaces nonplanar_surfaces;
 
+    // Vector of bottom_nonplanar_surfaces which are homed in this layer
+    NonplanarSurfaces bottom_nonplanar_surfaces;
+
     /// Flow object which provides methods to predict material spacing.
     Flow flow(FlowRole role, bool bridge = false, double width = -1) const;
     /// Merges this->slices
