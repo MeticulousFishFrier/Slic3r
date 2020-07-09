@@ -4,6 +4,6 @@
    <marker id="endArrow" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
       <polyline fill="darkblue" points="0,0 10,5 0,10 1,5" />
    </marker>
-   <path d="M 1016 1016 939.623 1016 939.623 -0.0001 1016 -0.0001 z " style="fill: blue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1016 1016 939.623 1016 939.623 -0.0001 1016 -0.0001 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 600.075 1000 -0.0001 1000 -0.0001 -0.0001 600.075 -0.0001 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 600.075 1000 -0.0001 1000 -0.0001 -0.0001 600.075 -0.0001 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
 </svg>

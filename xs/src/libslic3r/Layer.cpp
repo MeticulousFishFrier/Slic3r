@@ -318,7 +318,7 @@ Layer::detect_surfaces_type()
             bottom_nonplanar_surfaces.append(
                 intersection_ex(surface.horizontal_projection(),
                 union_ex(layerm_slices_surfaces)),
-                (surface.stats.max.z <= this->slice_z + this->height ? stTopNonplanar : stInternalSolidNonplanar)
+                (surface.stats.min.z >= this->slice_z + this->height ? stBottomNonplanar : stInternalSolidNonplanar)
             );
         }
         

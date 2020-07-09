@@ -4,24 +4,6 @@
    <marker id="endArrow" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
       <polyline fill="darkblue" points="0,0 10,5 0,10 1,5" />
    </marker>
-   <path d="M 982.11 784.53 17.8904 784.53 17.8904 715.47 982.11 715.47 z " style="fill: brown; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 784.53 17.8904 784.53 17.8904 715.47 982.11 715.47 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 284.53 17.8904 284.53 17.8904 215.47 982.11 215.47 z " style="fill: brown; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 284.53 17.8904 284.53 17.8904 215.47 982.11 215.47 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 815.904 17.8904 815.904 17.8904 784.53 982.11 784.53 z " style="fill: yellow; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 815.904 17.8904 815.904 17.8904 784.53 982.11 784.53 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 715.47 17.8904 715.47 17.8904 684.096 982.11 684.096 z " style="fill: yellow; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 715.47 17.8904 715.47 17.8904 684.096 982.11 684.096 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 315.904 17.8904 315.904 17.8904 284.53 982.11 284.53 z " style="fill: yellow; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 315.904 17.8904 315.904 17.8904 284.53 982.11 284.53 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 215.47 17.8904 215.47 17.8904 184.096 982.11 184.096 z " style="fill: yellow; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 215.47 17.8904 215.47 17.8904 184.096 982.11 184.096 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 826.53 982.11 826.53 982.11 828.207 982.11 828.207 982.11 836.625 17.8904 836.625 17.8904 828.207 17.8903 828.207 17.8903 826.53 17.8904 826.53 17.8904 815.904 982.11 815.904 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 826.53 982.11 826.53 982.11 828.207 982.11 828.207 982.11 836.625 17.8904 836.625 17.8904 828.207 17.8903 828.207 17.8903 826.53 17.8904 826.53 17.8904 815.904 982.11 815.904 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 671.793 982.11 671.793 982.11 673.47 982.11 673.47 982.11 684.096 17.8904 684.096 17.8904 673.47 17.8903 673.47 17.8903 671.793 17.8904 671.793 17.8904 663.375 982.11 663.375 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 671.793 982.11 671.793 982.11 673.47 982.11 673.47 982.11 684.096 17.8904 684.096 17.8904 673.47 17.8903 673.47 17.8903 671.793 17.8904 671.793 17.8904 663.375 982.11 663.375 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 326.53 982.11 326.53 982.11 328.207 982.11 328.207 982.11 336.625 17.8904 336.625 17.8904 328.207 17.8903 328.207 17.8903 326.53 17.8904 326.53 17.8904 315.904 982.11 315.904 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 326.53 982.11 326.53 982.11 328.207 982.11 328.207 982.11 336.625 17.8904 336.625 17.8904 328.207 17.8903 328.207 17.8903 326.53 17.8904 326.53 17.8904 315.904 982.11 315.904 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 171.793 982.11 171.793 982.11 173.47 982.11 173.47 982.11 184.096 17.8904 184.096 17.8904 173.47 17.8903 173.47 17.8903 171.793 17.8904 171.793 17.8904 163.375 982.11 163.375 z " style="fill: lightblue; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 982.11 171.793 982.11 171.793 982.11 173.47 982.11 173.47 982.11 184.096 17.8904 184.096 17.8904 173.47 17.8903 173.47 17.8903 171.793 17.8904 171.793 17.8904 163.375 982.11 163.375 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 685.055 982.11 17.8904 982.11 17.8904 17.8904 685.055 17.8904 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 685.055 982.11 17.8904 982.11 17.8904 17.8904 685.055 17.8904 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
 </svg>

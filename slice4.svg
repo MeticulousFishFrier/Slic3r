@@ -4,18 +4,6 @@
    <marker id="endArrow" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
       <polyline fill="darkblue" points="0,0 10,5 0,10 1,5" />
    </marker>
-   <path d="M 1000 840.074 -0.0001 840.074 -0.0001 794.518 1000 794.518 z " style="fill: lightgreen; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 840.074 -0.0001 840.074 -0.0001 794.518 1000 794.518 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 705.482 -0.0001 705.482 -0.0001 659.926 1000 659.926 z " style="fill: lightgreen; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 705.482 -0.0001 705.482 -0.0001 659.926 1000 659.926 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 340.074 -0.0001 340.074 -0.0001 294.518 1000 294.518 z " style="fill: lightgreen; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 340.074 -0.0001 340.074 -0.0001 294.518 1000 294.518 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 205.482 -0.0001 205.482 -0.0001 159.926 1000 159.926 z " style="fill: lightgreen; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 205.482 -0.0001 205.482 -0.0001 159.926 1000 159.926 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 1000 -0.0001 1000 -0.0001 840.074 1000 840.074 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 1000 -0.0001 1000 -0.0001 840.074 1000 840.074 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 659.926 -0.0001 659.926 -0.0001 340.074 1000 340.074 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 659.926 -0.0001 659.926 -0.0001 340.074 1000 340.074 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 159.926 -0.0001 159.926 -0.0001 -0.0001 1000 -0.0001 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
-   <path d="M 1000 159.926 -0.0001 159.926 -0.0001 -0.0001 1000 -0.0001 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 51.4351 1000 -0.0001 1000 -0.0001 -0.0001 51.4351 -0.0001 z " style="fill: gold; stroke: black; stroke-width: 0.000000; fill-type: evenodd"  fill-opacity="1.000000" />
+   <path d="M 51.4351 1000 -0.0001 1000 -0.0001 -0.0001 51.4351 -0.0001 z" style="fill: none; stroke: black; stroke-width: 2.000000; fill-type: evenodd"  fill-opacity="1.000000" />
 </svg>

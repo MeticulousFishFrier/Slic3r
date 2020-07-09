@@ -487,12 +487,12 @@ PrintObject::move_nonplanar_surfaces_up()
                     Layer* home_layer        = *home_layer_it;
                     LayerRegion &home_layerm = *home_layer->regions[region_id];
                     
-                    std::cout<<"the slice z is"<<home_layer->slice_z<<std::endl;
-                    std::cout<<"the home layer height z is"<<home_layer->height<<std::endl;
+                    // std::cout<<"the slice z is"<<home_layer->slice_z<<std::endl;
+                    // std::cout<<"the home layer height z is"<<home_layer->height<<std::endl;
 
-                    std::cout<<"the nonplanar_surface max z is"<<nonplanar_surface.stats.max.z<<std::endl;
+                    // std::cout<<"the nonplanar_surface max z is"<<nonplanar_surface.stats.max.z<<std::endl;
 
-                    std::cout<<"the distance to top is "<<distance_to_top<<"\n\n";
+                    // std::cout<<"the distance to top is "<<distance_to_top<<"\n\n";
 
                     //continue if home layer is not maximum height of nonplanar_surface - the desired distance to the top of the surface for more than one top solid layer
                     if (home_layer->slice_z > nonplanar_surface.stats.max.z - distance_to_top) continue;
@@ -607,28 +607,51 @@ PrintObject::move_bottom_nonplanar_surfaces_down(){
                     Layer* home_layer        = *home_layer_it;
                     LayerRegion &home_layerm = *home_layer->regions[region_id];
                     
-                    std::cout<<"the slice z is"<<home_layer->slice_z<<std::endl;
-                    std::cout<<"the home layer height z is"<<home_layer->height<<std::endl;
-                    std::cout<<"the nonplanar_surface min z is"<<nonplanar_surface.stats.min.z<<std::endl;
-                    std::cout<<"the distance to top is "<<distance_to_bottom<<"\n\n";
+                    // //debug
+                    // std::cout<<"the slice z is"<<home_layer->slice_z<<std::endl;
+                    // std::cout<<"the home layer height z is"<<home_layer->height<<std::endl;
+                    // std::cout<<"the nonplanar_surface min z is"<<nonplanar_surface.stats.min.z<<std::endl;
+                    // std::cout<<"the distance to top is "<<distance_to_bottom<<"\n\n";
                     
-                    //continue if home layer is not min height of nonplanar_surface - the desired distance to the top of the surface for more than one top solid layer
+                    //continue if home layer is not min height of nonplanar_surface - the desired distance to the bottom of the surface for more than one bottom solid layer
                     if (home_layer->slice_z < nonplanar_surface.stats.min.z + distance_to_bottom) continue;
                     
 
                     //process layers, goes from top to bottom
-
-                    for (LayerPtrs::reverse_iterator layer_it = this->layers.rbegin(); layer_it != this->layers.rend(); ++layer_it){
+                    int debugCtr (0);
+                    for (LayerPtrs::reverse_iterator layer_it = this->layers.rbegin(); layer_it != this->layers.rend(); ++layer_it, ++debugCtr){
                         Layer* layer        = *layer_it;
                         LayerRegion &layerm = *layer->regions[region_id];
                         
+
+                        if(debugCtr == 77 ){
+                            std::cout<<" 77 n";
+                            std::cout<<"the nonplanar_surface.stats.max.z-layer->height is "<<nonplanar_surface.stats.max.z-layer->height<<" and distance_to_bottom is " 
+                            <<distance_to_bottom<< " layer slice z is "<< layer->slice_z<<std::endl;
+                        }
+
+                         if(debugCtr == 78 ){
+                            std::cout<<" 78 n";
+                            std::cout<<"the nonplanar_surface.stats.max.z-layer->height is "<<nonplanar_surface.stats.max.z-layer->height<<" and distance_to_bottom is " 
+                            <<distance_to_bottom<< " layer slice z is "<< layer->slice_z<<std::endl;
+                        }
+
                         //skip if above maximum bottom nonplanar surface and above the last possible surface layer
-                        if (nonplanar_surface.stats.max.z-layer->height-distance_to_bottom < layer->slice_z) continue;
+                        if (nonplanar_surface.stats.max.z+layer->height+distance_to_bottom < layer->slice_z) continue;
+
                         //break if below home layer
                         if (home_layer->slice_z > layer->slice_z) break;
+
                         //skip if top layer because we dont want to project the top layers down
                         if (layer->upper_layer == NULL) continue;
                     
+                        if(debugCtr == 77 ){
+                            std::cout<<" 77 passsed all three ifs!!!!\n\n";
+                        }
+                          if(debugCtr == 78 ){
+                            std::cout<<" 78 has ppaaasssed!!!!\n\n";
+                        }
+
                         Polygons layerm_slices_surfaces = layerm.slices;
                         SurfaceCollection bottomNonplanar;
                         if (layer->lower_layer != NULL) {
@@ -637,8 +660,7 @@ PrintObject::move_bottom_nonplanar_surfaces_down(){
                             LayerRegion &lower_layerm = *lower_layer->regions[region_id];
                             Polygons lower_slices = lower_layerm.slices;
                             bottomNonplanar.append(
-                                intersection_ex(nonplanar_surface.horizontal_projection(),
-                                union_ex(diff(layerm_slices_surfaces, lower_slices, false), false), false),
+                                intersection_ex(nonplanar_surface.horizontal_projection(),union_ex(diff(layerm_slices_surfaces, lower_slices))),
                                 (shell_thickness == 0 ? stBottomNonplanar : stInternalSolidNonplanar),
                                 distance_to_bottom
                             );
@@ -646,13 +668,13 @@ PrintObject::move_bottom_nonplanar_surfaces_down(){
                             //append layers where nonplanar areas with a higher distance_to_bottom are below
                             SurfaceCollection lower_nonplanar;
                             for (auto& s : lower_layerm.slices.surfaces){
-                                if (s.is_nonplanar() && s.distance_to_bottom < distance_to_bottom){
+                                if (s.is_nonplanar()){
                                     lower_nonplanar.surfaces.push_back(s);
                                 }
                             }
                             if (lower_nonplanar.size() > 0)
                             bottomNonplanar.append(
-                                intersection_ex(nonplanar_surface.horizontal_projection(),lower_nonplanar, false),
+                                intersection_ex(nonplanar_surface.horizontal_projection(),lower_nonplanar),
                                 (shell_thickness == 0 ? stBottomNonplanar : stInternalSolidNonplanar),
                                 distance_to_bottom
                             );
@@ -661,7 +683,7 @@ PrintObject::move_bottom_nonplanar_surfaces_down(){
                         }
                         else {
                             bottomNonplanar.append(
-                                intersection_ex(nonplanar_surface.horizontal_projection(),union_ex(layerm_slices_surfaces, false),false),
+                                intersection_ex(nonplanar_surface.horizontal_projection(),union_ex(layerm_slices_surfaces)),
                                 (shell_thickness == 0 ? stBottomNonplanar : stInternalSolidNonplanar),
                                 distance_to_bottom
                             );

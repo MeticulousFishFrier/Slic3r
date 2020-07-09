@@ -40,7 +40,8 @@ Surface::is_external() const
     return this->surface_type == stTop
         || this->surface_type == stBottom
         || this->surface_type == stBottomBridge
-        || this->surface_type == stTopNonplanar;
+        || this->surface_type == stTopNonplanar
+        || this->surface_type == stBottomNonplanar;
 }
 
 bool
