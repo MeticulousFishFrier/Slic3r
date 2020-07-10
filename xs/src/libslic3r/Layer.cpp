@@ -303,9 +303,9 @@ Layer::detect_surfaces_type()
         const Polygons layerm_slices_surfaces = layerm.slices;
 
         //Find mark nonplanar surfaces
-        SurfaceCollection nonplanar_surfaces;
-        for(auto& surface : layerm.nonplanar_surfaces){
-            nonplanar_surfaces.append(
+        SurfaceCollection top_nonplanar_surfaces;
+        for(auto& surface : layerm.top_nonplanar_surfaces){
+            top_nonplanar_surfaces.append(
                 intersection_ex(surface.horizontal_projection(),
                 union_ex(layerm_slices_surfaces)),
                 (surface.stats.max.z <= this->slice_z + this->height ? stTopNonplanar : stInternalSolidNonplanar)
@@ -318,12 +318,12 @@ Layer::detect_surfaces_type()
             bottom_nonplanar_surfaces.append(
                 intersection_ex(surface.horizontal_projection(),
                 union_ex(layerm_slices_surfaces)),
-                (surface.stats.min.z >= this->slice_z + this->height ? stBottomNonplanar : stInternalSolidNonplanar)
+                (surface.stats.min.z >= this->slice_z - this->height ? stBottomNonplanar : stInternalSolidNonplanar)
             );
         }
         
         //remove non planar surfaces form all surfaces to get planar surfaces
-        Polygons planar_surfaces = diff(diff(layerm_slices_surfaces,nonplanar_surfaces,true),bottom_nonplanar_surfaces,true);
+        Polygons planar_surfaces = diff(diff(layerm_slices_surfaces,top_nonplanar_surfaces,true),bottom_nonplanar_surfaces,true);
 
         // find top surfaces (difference between current surfaces
         // of current layer and upper one)
@@ -340,7 +340,7 @@ Layer::detect_surfaces_type()
             //difference between all surfaces and upper surfaces subtracted by nonplanar surfaces
             top.append(
                 offset2_ex(
-                    diff(diff(layerm_slices_surfaces, upper_slices, true),nonplanar_surfaces,true),
+                    diff(diff(layerm_slices_surfaces, upper_slices, true),top_nonplanar_surfaces,true),
                     -offs, offs
                 ),
                 stTop
@@ -367,7 +367,7 @@ Layer::detect_surfaces_type()
             // Any surface lying on the void is a true bottom bridge (an overhang)
             bottom.append(
                 offset2_ex(
-                    diff(diff(diff(layerm_slices_surfaces, lower_layer->slices, true),nonplanar_surfaces,true),bottom_nonplanar_surfaces,true),
+                    diff(diff(diff(layerm_slices_surfaces, lower_layer->slices, true),top_nonplanar_surfaces,true),bottom_nonplanar_surfaces,true),
                     -offs, offs
                 ),
                 surface_type_bottom
@@ -389,7 +389,7 @@ Layer::detect_surfaces_type()
                                     lower_layerm->slices,
                                     true
                                 ),
-                                nonplanar_surfaces,
+                                top_nonplanar_surfaces,
                                 true
                             ),
                         bottom_nonplanar_surfaces,
@@ -433,7 +433,7 @@ Layer::detect_surfaces_type()
             layerm.slices.clear();
             layerm.slices.append(STDMOVE(top));
             layerm.slices.append(STDMOVE(bottom));
-            layerm.slices.append(STDMOVE(nonplanar_surfaces));
+            layerm.slices.append(STDMOVE(top_nonplanar_surfaces));
             layerm.slices.append(STDMOVE(bottom_nonplanar_surfaces));
 
 
@@ -441,7 +441,7 @@ Layer::detect_surfaces_type()
             {
                 Polygons solid_surfaces = top;
                 append_to(solid_surfaces, (Polygons)bottom);
-                append_to(solid_surfaces, (Polygons)nonplanar_surfaces);
+                append_to(solid_surfaces, (Polygons)top_nonplanar_surfaces);
                 append_to(solid_surfaces, (Polygons)bottom_nonplanar_surfaces);
 
 

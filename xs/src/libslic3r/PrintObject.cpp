@@ -570,7 +570,7 @@ PrintObject::move_nonplanar_surfaces_up()
                             home_layerm.slices.append(STDMOVE(topNonplanar));
                             
                             //save nonplanar_surface to home_layers nonplanar_surface list
-                            home_layerm.append_nonplanar_surface(nonplanar_surface);
+                            home_layerm.append_top_nonplanar_surface(nonplanar_surface);
                             
                         }
                     }
@@ -622,19 +622,6 @@ PrintObject::move_bottom_nonplanar_surfaces_down(){
                     for (LayerPtrs::reverse_iterator layer_it = this->layers.rbegin(); layer_it != this->layers.rend(); ++layer_it, ++debugCtr){
                         Layer* layer        = *layer_it;
                         LayerRegion &layerm = *layer->regions[region_id];
-                        
-
-                        if(debugCtr == 77 ){
-                            std::cout<<" 77 n";
-                            std::cout<<"the nonplanar_surface.stats.max.z-layer->height is "<<nonplanar_surface.stats.max.z-layer->height<<" and distance_to_bottom is " 
-                            <<distance_to_bottom<< " layer slice z is "<< layer->slice_z<<std::endl;
-                        }
-
-                         if(debugCtr == 78 ){
-                            std::cout<<" 78 n";
-                            std::cout<<"the nonplanar_surface.stats.max.z-layer->height is "<<nonplanar_surface.stats.max.z-layer->height<<" and distance_to_bottom is " 
-                            <<distance_to_bottom<< " layer slice z is "<< layer->slice_z<<std::endl;
-                        }
 
                         //skip if above maximum bottom nonplanar surface and above the last possible surface layer
                         if (nonplanar_surface.stats.max.z+layer->height+distance_to_bottom < layer->slice_z) continue;
@@ -645,13 +632,6 @@ PrintObject::move_bottom_nonplanar_surfaces_down(){
                         //skip if top layer because we dont want to project the top layers down
                         if (layer->upper_layer == NULL) continue;
                     
-                        if(debugCtr == 77 ){
-                            std::cout<<" 77 passsed all three ifs!!!!\n\n";
-                        }
-                          if(debugCtr == 78 ){
-                            std::cout<<" 78 has ppaaasssed!!!!\n\n";
-                        }
-
                         Polygons layerm_slices_surfaces = layerm.slices;
                         SurfaceCollection bottomNonplanar;
                         if (layer->lower_layer != NULL) {
@@ -678,8 +658,6 @@ PrintObject::move_bottom_nonplanar_surfaces_down(){
                                 (shell_thickness == 0 ? stBottomNonplanar : stInternalSolidNonplanar),
                                 distance_to_bottom
                             );
-                            
-                            
                         }
                         else {
                             bottomNonplanar.append(
@@ -712,8 +690,8 @@ PrintObject::move_bottom_nonplanar_surfaces_down(){
                             //move nonplanar surfaces to home layer
                             home_layerm.slices.append(STDMOVE(bottomNonplanar));
                             
-                            //save nonplanar_surface to home_layers nonplanar_surface list
-                            home_layerm.append_nonplanar_surface(nonplanar_surface);
+                            //save nonplanar_surface to home_layers bottom_nonplanar_surface list
+                            home_layerm.append_bottom_nonplanar_surface(nonplanar_surface);
                             
                         }
                     }

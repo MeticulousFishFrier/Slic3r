@@ -222,7 +222,7 @@ sub infill {
     $self->_infill;
     
     #$self->print->status_cb->(35, "Project nonplanar surfaces down");
-    #$self->project_nonplanar_surfaces;
+    $self->project_nonplanar_surfaces;
     print "infilling rn\n"
 }
 

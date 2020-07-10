@@ -58,7 +58,7 @@ class LayerRegion
     ExtrusionEntityCollection fills;
     
     // Vector of nonplanar_surfaces which are homed in this layer
-    NonplanarSurfaces nonplanar_surfaces;
+    NonplanarSurfaces top_nonplanar_surfaces;
 
     // Vector of bottom_nonplanar_surfaces which are homed in this layer
     NonplanarSurfaces bottom_nonplanar_surfaces;
@@ -78,7 +78,9 @@ class LayerRegion
     /// Gets the smallest fillable area
     double infill_area_threshold() const;
     //append a new nonplanar surface to the list skip if already in list
-    void append_nonplanar_surface(NonplanarSurface& surface);
+    void append_top_nonplanar_surface(NonplanarSurface& surface);
+    //append a new bottom nonplanar surface to the list skip if already in list
+    void append_bottom_nonplanar_surface(NonplanarSurface& surface);
     // Projects the paths of a collection regarding the structure of a stl mesh
     void project_nonplanar_extrusion(ExtrusionEntityCollection* collection);
     /// Projects nonplanar surfaces downwards regarding the structure of the stl mesh.

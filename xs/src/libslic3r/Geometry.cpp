@@ -349,15 +349,30 @@ sign(Pointf p1, Pointf p2, Pointf p3)
     return (p1.x - p3.x) * (p2.y - p3.y) - (p2.x - p3.x) * (p1.y - p3.y);
 }
 
+// https://stackoverflow.com/questions/2049582/how-to-determine-if-a-point-is-in-a-2d-triangle
 bool
 Point_in_triangle(Pointf pt, Pointf v1, Pointf v2, Pointf v3)
 {
-    //Check if point is right of every edge
-    if (sign(pt, v1, v2) <= 0.0f) return false;
-    if (sign(pt, v2, v3) <= 0.0f) return false;
-    if (sign(pt, v3, v1) <= 0.0f) return false;
+    // //Check if point is right of every edge
+    // if (sign(pt, v1, v2) <= 0.0f) return false;
+    // if (sign(pt, v2, v3) <= 0.0f) return false;
+    // if (sign(pt, v3, v1) <= 0.0f) return false;
 
-    return true;
+    
+    // std::cout<<"results from sign were : "<<sign(pt, v1, v2)<<" "<<sign(pt, v2, v3)<<" "<<sign(pt, v3, v1)<<"\n";
+    // return true;
+
+    float d1, d2, d3;
+    bool has_neg, has_pos;
+
+    d1 = sign(pt, v1, v2);
+    d2 = sign(pt, v2, v3);
+    d3 = sign(pt, v3, v1);
+
+    has_neg = (d1 < 0) || (d2 < 0) || (d3 < 0);
+    has_pos = (d1 > 0) || (d2 > 0) || (d3 > 0);
+
+    return !(has_neg && has_pos);
 }
 
 //https://graphics.stanford.edu/~mdfisher/Code/Engine/Plane.cpp.html
