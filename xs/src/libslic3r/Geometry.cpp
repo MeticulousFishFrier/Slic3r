@@ -353,15 +353,6 @@ sign(Pointf p1, Pointf p2, Pointf p3)
 bool
 Point_in_triangle(Pointf pt, Pointf v1, Pointf v2, Pointf v3)
 {
-    // //Check if point is right of every edge
-    // if (sign(pt, v1, v2) <= 0.0f) return false;
-    // if (sign(pt, v2, v3) <= 0.0f) return false;
-    // if (sign(pt, v3, v1) <= 0.0f) return false;
-
-    
-    // std::cout<<"results from sign were : "<<sign(pt, v1, v2)<<" "<<sign(pt, v2, v3)<<" "<<sign(pt, v3, v1)<<"\n";
-    // return true;
-
     float d1, d2, d3;
     bool has_neg, has_pos;
 

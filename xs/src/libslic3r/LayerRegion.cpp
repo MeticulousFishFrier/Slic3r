@@ -474,25 +474,24 @@ LayerRegion::project_nonplanar_path(ExtrusionPath *path)
 
         }
 
-
-        // for (auto& surface : this->bottom_nonplanar_surfaces) {
-        //     float distance_to_bottom = surface.stats.min.z + this->layer()->print_z;
-        //     for(auto& facet : surface.mesh) {
-        //         for(int j= 0; j < 3; j++){
-        //             //TODO precheck for faster computation
-        //             Point p1 = Point(scale_(facet.second.vertex[j].x), scale_(facet.second.vertex[j].y), scale_(facet.second.vertex[j].z));
-        //             Point p2 = Point(scale_(facet.second.vertex[(j+1) % 3].x), scale_(facet.second.vertex[(j+1) % 3].y), scale_(facet.second.vertex[(j+1) % 3].z));
-        //             Point* p = Slic3r::Geometry::Line_intersection(p1, p2, path->polyline.points[i], path->polyline.points[i+1]);
+        for (auto& surface : this->bottom_nonplanar_surfaces) {
+            float distance_to_bottom = surface.stats.min.z + this->layer()->print_z;
+            for(auto& facet : surface.mesh) {
+                for(int j= 0; j < 3; j++){
+                    //TODO precheck for faster computation
+                    Point p1 = Point(scale_(facet.second.vertex[j].x), scale_(facet.second.vertex[j].y), scale_(facet.second.vertex[j].z));
+                    Point p2 = Point(scale_(facet.second.vertex[(j+1) % 3].x), scale_(facet.second.vertex[(j+1) % 3].y), scale_(facet.second.vertex[(j+1) % 3].z));
+                    Point* p = Slic3r::Geometry::Line_intersection(p1, p2, path->polyline.points[i], path->polyline.points[i+1]);
                     
-        //             if (p) {
-        //                 //add distance to bottom for every added point
-        //                 p->z = p->z + scale_(distance_to_bottom);
-        //                 intersections.push_back(*p);
-        //             }
-        //         }
-        //     }
+                    if (p) {
+                        //add distance to bottom for every added point
+                        p->z = p->z + scale_(distance_to_bottom);
+                        intersections.push_back(*p);
+                    }
+                }
+            }
 
-        // }
+        }
 
 
 
