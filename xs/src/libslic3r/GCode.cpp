@@ -635,7 +635,7 @@ GCode::travel_to(const Point &point, ExtrusionRole role, std::string comment)
     // check whether a straight travel move would need retraction
     bool needs_retraction = this->needs_retraction(travel, role);
     
-    //Check if source or target points lay below the current Layer
+    //Check if source or target points lay below or above the current Layer
     bool needs_zmove = this->needs_zmove(travel);
 
     // if a retraction would be needed, try to use avoid_crossing_perimeters to plan a
@@ -660,7 +660,12 @@ GCode::travel_to(const Point &point, ExtrusionRole role, std::string comment)
     
     // Move Z up if necessary
     if (needs_zmove) {
-        gcode += this->writer.travel_to_z(this->layer->print_z, "Move up before moving");
+        coord_t max_z = scale_(this->layer->print_z);
+        
+        std::for_each(travel.points.begin(), travel.points.end(),
+                    [&max_z](const Point &p) { max_z = std::max(max_z, p.z); });
+
+        gcode += this->writer.travel_to_z(unscale(max_z) + .1, "Move up before moving");
     }
     
     // use G1 because we rely on paths being straight (G0 may make round paths)
@@ -729,10 +734,10 @@ GCode::needs_zmove(const Polyline &travel)
         return false;
     }
     
-    //check if any point in travel is below the layer z
+    //check if any point in travel is below or above the layer z
     for (Point p : travel.points)
     {
-        if ((p.z != -1.0) && (p.z < scale_(this->layer->print_z)))
+        if ((p.z != -1.0) && (p.z < scale_(this->layer->print_z) || p.z > scale_(this->layer->print_z) ) )
             return true;
     }
     
@@ -833,7 +838,7 @@ GCode::point3_to_gcode(const Point &point)
     return Pointf3(
         unscale(point.x) + this->origin.x - extruder_offset.x,
         unscale(point.y) + this->origin.y - extruder_offset.y,
-        (point.z == -1.0f ? this->layer->print_z : unscale(point.z)) //TODO Origin?
+        (point.z == -1.0f) ? this->layer->print_z + this->config.z_offset.value : unscale(point.z) + this->config.z_offset.value //TODO Origin?
     );
     
 }

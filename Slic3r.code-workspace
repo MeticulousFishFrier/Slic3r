@@ -24,7 +24,8 @@
 			"xs/src/libslic3r/LayerRegion.cpp",
 			"xs/src/libslic3r/LayerRegionFill.cpp",
 			"xs/src/libslic3r/SurfaceCollection.cpp",
-			"xs/src/libslic3r/SurfaceCollection.hpp"
+			"xs/src/libslic3r/SurfaceCollection.hpp",
+			"lib/Slic3r/Print/GCode.pm"
 		],
 		"files.associations": {
 			"valarray": "cpp",

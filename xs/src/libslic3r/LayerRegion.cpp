@@ -494,7 +494,6 @@ LayerRegion::project_nonplanar_path(ExtrusionPath *path)
         }
 
 
-
         //Stop if no intersections are found
         if (intersections.size() == 0) continue;
 
